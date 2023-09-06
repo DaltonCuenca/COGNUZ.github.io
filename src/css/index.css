@@ -4,6 +4,7 @@
     box-sizing: border-box;
     --background: #162248;
     --letters: #fff;
+    --cuadros-lineas:#ffb418;
 }
 
 body {
@@ -14,6 +15,7 @@ nav {
     height: 20vh;
     padding: 15px !important;
 }
+
 /* nav .navbar-brand img{
     height: 200px;
 } */
@@ -39,7 +41,7 @@ nav {
 }
 
 .bg1 .input-group h2 {
-    color: #ffb418;
+    color: var(--cuadros-lineas);
 }
 
 .bg1 .row .somos {
@@ -48,12 +50,15 @@ nav {
     margin: auto !important;
 }
 
-.bg2{
+/* NUESTRO EQUIPO */
+.NE {
     width: 100%;
     position: relative;
-    padding: 100px 0 !important;
+    padding: 100px 0 300px 0 !important;
+    background: #16224838 url('src/img/fondo1.png') !important;
 }
-.bg2 .cuadro{
+
+.NE .cuadro {
     position: absolute;
     width: fit-content;
     right: 40px;
@@ -62,15 +67,90 @@ nav {
     color: var(--letters);
     padding: 20px !important;
 }
-.bg2 .cuadro .raya{
+
+.NE .cuadro .raya {
     position: absolute;
-    background-color: #ffb418;
+    background-color: var(--cuadros-lineas);
     height: 10px;
     width: 60%;
     top: 75px;
     left: 100px;
 }
 
-.bg2 .card{
+.NE .card {
     margin: 20px 0 !important;
+    width: 100% !important;
+}
+
+/* PRODUCTOS */
+
+.productos {
+    position: relative;
+}
+
+.productos .pro-fondo{
+    position: absolute;
+    width: 100%;
+    top: -400px;
+}
+.productos .pro-fondo img {
+    position: relative;
+    width: 50vw;
+    border-radius: 0 0 50px 50px;
+}
+
+.productos .pro-fondo .cuadro {
+    position: absolute;
+    width: fit-content;
+    right: 40%;
+    top: 280px;
+    background-color: var(--background);
+    color: var(--letters);
+    padding: 20px !important;
+}
+.productos .pro-fondo .cuadro .raya {
+    position: absolute;
+    background-color: var(--cuadros-lineas);
+    height: 10px;
+    width: 50%;
+    top: 75px;
+    left: 65px;
+}
+
+.productos .pro{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 200px 0 0 0 !important;
+    background-color: #f2f2f2;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 0!important;
+}
+.productos .pro .card {
+    position: relative;
+    margin: 20px 0 !important;
+    width: 100% !important;
+    text-align: left;
+    padding: 10px !important;
+    background-color: inherit;
+    border: none;
+}
+.productos .pro .card .ct{
+    width: fit-content;
+}
+.productos .pro .card .cuadro{
+    width: 20px;
+    height: 20px;
+    background-color: var(--cuadros-lineas);
+    margin: 0 4px !important;
+}
+.productos .pro .card .card-body> *{
+    padding: 15px 0 !important;
+}
+.productos .pro .card .card-body .btn{
+    background-color: var(--cuadros-lineas);
+    border: none;
+    color: #162248;
+    padding: 10px !important;
+    font-weight: bold;
 }
