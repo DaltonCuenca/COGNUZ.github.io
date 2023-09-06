@@ -1,0 +1,15 @@
+@media (max-width:1280px) {
+    .bg1 video {
+        width: 80vw;
+    }
+    .bg1 .row .somos {
+        width: 80vw;
+    }
+
+    .bg2 .cuadro .raya{
+        top: 65px;
+    }
+    .bg2 .card{
+        width: 20vw !important;
+    }
+}
