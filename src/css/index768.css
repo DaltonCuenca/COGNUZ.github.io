@@ -1,0 +1,32 @@
+@media (max-width:768px) {
+    .productos .pro-fondo .cuadro {
+        right: 38%;
+        top: 215px;
+        padding: 10px !important;
+    }
+    
+    .productos .pro-fondo .cuadro .raya {
+        top: 50px;
+        left: 46px;
+    }
+    .productos .pro .col-4,
+    .productos2 .pro2. .col-4{
+        width: 40vw !important;
+    }
+
+    .productos .pro .card .ct .card-title,
+    .productos2 .pro2 .card .ct .card-title{
+        width: 200px;
+        overflow-wrap: break-word;
+    }
+    .productos2 .pro2 .card.solo .ct .cuadro{
+        position: absolute;
+    }
+    .productos2 .pro2 .card.solo .ct .card-title{
+        width: 400px;
+        overflow-wrap: break-word;
+    }
+    .productos2 .pro2 .card2 .ct {
+        left:30px !important;
+    }
+}

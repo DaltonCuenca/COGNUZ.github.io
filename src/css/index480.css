@@ -1,0 +1,31 @@
+@media (max-width:480px) {
+    .bg1 video {
+        width: 70vw;
+    }
+    .NE{
+        padding: 100px 0 100px 0 !important;
+    }
+    .NE .cuadro .raya {
+        top: 69px;
+        left: 85px;
+    }
+    .productos .pro-fondo img {
+        top: 130px;
+        width: 70vw;
+    }
+    .productos .pro-fondo .cuadro {
+        right: 32%;
+        top: 270px;
+        padding: 10px !important;
+    }
+    .col-4 {
+        width: 45vw;
+    }
+    .productos .pro .card .ct .card-title,
+    .productos2 .pro2 .card .ct .card-title{
+        width: 146px;
+    }
+    .productos2 .pro2 .card2 .ct {
+        left: 9px !important;
+    }
+}

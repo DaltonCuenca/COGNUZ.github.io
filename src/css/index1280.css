@@ -1,12 +1,8 @@
 @media (max-width:1280px) {
-    .bg1 video {
-        /* width: 80vw; */
+    .productos2 .pro2 .card2 .ct {
+        left:130px !important;
     }
     .bg1 .row .somos {
-        /* width: 80vw; */
-    }
-
-    .bg2 .cuadro .raya{
-        /* top: 75px; */
+        width: 80vw;
     }
 }
