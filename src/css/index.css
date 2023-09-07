@@ -4,7 +4,7 @@
     box-sizing: border-box;
     --background: #162248;
     --letters: #fff;
-    --cuadros-lineas:#ffb418;
+    --cuadros-lineas: #ffb418;
 }
 
 body {
@@ -12,13 +12,19 @@ body {
 }
 
 nav {
-    height: 20vh;
-    padding: 15px !important;
+    height: 40vh;
+    padding: 0px !important;
 }
 
-/* nav .navbar-brand img{
-    height: 200px;
+nav .container-fluid {
+    background-color: #ffffff !important;
+}
+
+/* nav .navbar-brand{
 } */
+nav .navbar-brand img {
+    height: 200px;
+}
 
 .bg1 {
     background: var(--background);
@@ -55,7 +61,8 @@ nav {
     width: 100%;
     position: relative;
     padding: 100px 0 300px 0 !important;
-    background: #16224838 url('src/img/fondo1.png') !important;
+    background: url('../img/fondo001.png') center no-repeat;
+    background-size: cover;
 }
 
 .NE .cuadro {
@@ -80,6 +87,35 @@ nav {
 .NE .card {
     margin: 20px 0 !important;
     width: 100% !important;
+    border: none;
+}
+
+.NE .card .card-body {
+    background-color: var(--cuadros-lineas);
+    color: var(--background);
+    font-weight: bold;
+    padding: 20px 20px 40px 20px !important;
+}
+
+.NE .card .card-body .btn {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: #fff;
+    color: var(--background);
+    padding: 0 15px !important;
+    border: none;
+    border-radius: 0px !important;
+}
+
+.NE .card.COUNSEL .card-body {
+    background-color: var(--background);
+    color: #fff;
+}
+
+.NE .card img {
+    height: 300px;
+    object-fit: cover;
 }
 
 /* PRODUCTOS */
@@ -88,11 +124,12 @@ nav {
     position: relative;
 }
 
-.productos .pro-fondo{
+.productos .pro-fondo {
     position: absolute;
     width: 100%;
     top: -400px;
 }
+
 .productos .pro-fondo img {
     position: relative;
     width: 50vw;
@@ -108,6 +145,7 @@ nav {
     color: var(--letters);
     padding: 20px !important;
 }
+
 .productos .pro-fondo .cuadro .raya {
     position: absolute;
     background-color: var(--cuadros-lineas);
@@ -117,15 +155,16 @@ nav {
     left: 65px;
 }
 
-.productos .pro{
+.productos .pro {
     display: block;
     position: relative;
     width: 100%;
     margin: 200px 0 0 0 !important;
     background-color: #f2f2f2;
     border-radius: 20px 20px 0 0;
-    padding: 10px 0!important;
+    padding: 10px 0 !important;
 }
+
 .productos .pro .card {
     position: relative;
     margin: 20px 0 !important;
@@ -135,22 +174,99 @@ nav {
     background-color: inherit;
     border: none;
 }
-.productos .pro .card .ct{
+
+.productos .pro .card .ct {
     width: fit-content;
 }
-.productos .pro .card .cuadro{
+
+.productos .pro .card .cuadro {
     width: 20px;
     height: 20px;
     background-color: var(--cuadros-lineas);
     margin: 0 4px !important;
 }
-.productos .pro .card .card-body> *{
+
+.productos .pro .card .card-body>* {
     padding: 15px 0 !important;
 }
-.productos .pro .card .card-body .btn{
+
+.productos .pro .card .card-body .btn {
     background-color: var(--cuadros-lineas);
     border: none;
     color: #162248;
     padding: 10px !important;
     font-weight: bold;
+}
+
+.productos2 {
+    position: relative;
+    padding: 20px 0 !important;
+    background-color: var(--background);
+    color: #fff;
+}
+
+.productos2 .pro2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 10px 0 !important;
+}
+
+.productos2 .pro2 .card {
+    position: relative;
+    margin: 20px 0 !important;
+    width: 100% !important;
+    text-align: left;
+    padding: 10px !important;
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+.productos2 .pro2 .card .cuadro {
+    width: 20px;
+    height: 20px;
+    background-color: var(--cuadros-lineas);
+    margin: 0 4px !important;
+}
+
+.productos2 .pro2 .card .card-body>* {
+    padding: 15px 0 !important;
+}
+
+.productos2 .pro2 .card .card-body .btn {
+    background-color: var(--cuadros-lineas);
+    border: none;
+    color: #162248;
+    padding: 10px !important;
+    font-weight: bold;
+}
+
+.productos2 .pro2 .card2{
+    width: 60vw !important;
+    margin: auto !important;
+    text-align: center;
+}
+.productos2 .pro2 .card2 .ct {
+    left: 150px;
+}
+.video{
+    display: block;
+    position: relative;
+}
+.video .col{
+    width: fit-content;
+    margin: auto !important;
+}
+.video video {
+    width: 50vw;
+    border-radius: 10px;
+    border: 2px solid #464545;
+}
+
+footer{
+    color: #fff;
+    height: 40vh;
+    background: url('../img/fondo002.png') center no-repeat;
+    background-size: cover;
+    padding: 30px !important;
 }
