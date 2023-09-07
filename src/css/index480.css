@@ -2,8 +2,24 @@
     .bg1 video {
         width: 70vw;
     }
+    nav .navbar-brand img {
+        height: auto;
+        width: 100%;
+    }
     .NE{
         padding: 100px 0 100px 0 !important;
+    }
+    .NE .col-4 {
+        flex: 0 0 auto;
+        width: 80vw;
+    }
+    .productos .pro .col-4, 
+    .productos2 .pro2 .col-4 {
+        width: 80vw;
+    }
+    .productos .pro .card .ct .card-title, 
+    .productos2 .pro2 .card .ct .card-title {
+        width: 62vw;
     }
     .NE .cuadro .raya {
         top: 69px;
@@ -18,13 +34,7 @@
         top: 270px;
         padding: 10px !important;
     }
-    .col-4 {
-        width: 45vw;
-    }
-    .productos .pro .card .ct .card-title,
-    .productos2 .pro2 .card .ct .card-title{
-        width: 146px;
-    }
+
     .productos2 .pro2 .card2 .ct {
         left: 9px !important;
     }
