@@ -1,0 +1,8 @@
+@media (max-width:380px) {
+    nav .navbar-brand img {
+        width: 100%;
+    }
+    .productos2 .pro2 .card2 {
+        width: 74vw !important;
+    }
+}

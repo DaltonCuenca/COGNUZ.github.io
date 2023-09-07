@@ -1,6 +1,6 @@
 @media (max-width:320px) {
     nav .navbar-brand img {
-        height: 142px;
+        width: 100%;
     }
     .bg1 video {
         width: 80vw;
@@ -18,7 +18,7 @@
     }
     .productos .pro .card .ct .card-title,
     .productos2 .pro2 .card .ct .card-title{
-        width: 140px;
+        max-width: 135px;
     }
     .productos .pro-fondo .cuadro {
         right: 24%;
