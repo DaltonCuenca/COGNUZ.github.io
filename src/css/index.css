@@ -222,6 +222,7 @@ nav .navbar-brand img {
     color: inherit;
     border: none;
 }
+
 .productos2 .pro2 .card .cuadro {
     width: 20px;
     height: 20px;
@@ -241,32 +242,152 @@ nav .navbar-brand img {
     font-weight: bold;
 }
 
-.productos2 .pro2 .card2{
+.productos2 .pro2 .card2 {
     width: 60vw !important;
     margin: auto !important;
     text-align: center;
 }
+
 .productos2 .pro2 .card2 .ct {
     left: 150px;
 }
-.video{
+
+.video {
     display: block;
     position: relative;
 }
-.video .col{
+
+.video .col {
     width: fit-content;
     margin: auto !important;
 }
+
 .video video {
     width: 50vw;
     border-radius: 10px;
     border: 2px solid #464545;
 }
 
-footer{
+footer {
     color: #fff;
     height: 40vh;
     background: url('../img/fondo002.png') center no-repeat;
     background-size: cover;
     padding: 30px !important;
+}
+
+
+/* MODAL */
+.modal-window {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.25);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+
+    &:target {
+        visibility: visible;
+        opacity: 1;
+        pointer-events: auto;
+    }
+    & p{
+        padding: 10px 0 !important;
+    }
+
+    &>div {
+        width: 80vw;
+        height: 90vh;
+        overflow-y: scroll;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 3em !important;
+        background: white;
+    }
+    & img{
+        max-width: 100%;
+        max-height: 30vh;
+    }
+
+    .bold {
+        font-weight: bold;
+        color: var(--background);
+    }
+    
+    & h1 {
+        font-size: 2rem;
+        margin: 0 0 15px !important;
+        color: var(--background);
+    }
+    & h2 {
+        font-size: 1rem;
+        margin: 0 0 15px !important;
+        color: var(--background);
+    }
+}
+
+.modal-close {
+    color: #aaa;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+
+    &:hover {
+        color: black;
+    }
+}
+
+/* Demo Styles */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.modal-window {
+    &>div {
+        border-radius: 1rem;
+    }
+}
+
+.modal-window div:not(:last-of-type) {
+    margin-bottom: 15px;
+}
+
+.logo {
+    max-width: 150px;
+    display: block;
+}
+
+small {
+    color: lightgray;
+}
+
+.btn {
+    background-color: white;
+    padding: 1em 1.5em;
+    border-radius: 0.5rem;
+    text-decoration: none;
+
+    i {
+        padding-right: 0.3em;
+    }
 }
