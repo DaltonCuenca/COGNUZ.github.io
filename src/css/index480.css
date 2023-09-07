@@ -25,13 +25,18 @@
         top: 69px;
         left: 85px;
     }
+    .productos .pro-fondo {
+        position: absolute;
+        width: 100%;
+        top: -310px;
+    }
     .productos .pro-fondo img {
-        top: 130px;
+        top: 57px;
         width: 70vw;
     }
     .productos .pro-fondo .cuadro {
         right: 32%;
-        top: 270px;
+        top: 196px;
         padding: 10px !important;
     }
 
