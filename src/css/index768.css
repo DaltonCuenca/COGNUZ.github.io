@@ -10,8 +10,8 @@
         left: 46px;
     }
     .productos .pro .col-4,
-    .productos2 .pro2. .col-4{
-        width: 40vw !important;
+    .productos2 .pro2 .col-4{
+        width: 40vw;
     }
 
     .productos .pro .card .ct .card-title,
