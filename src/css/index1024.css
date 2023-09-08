@@ -2,4 +2,10 @@
     .productos2 .pro2 .card2 .ct {
         left:60px;
     }
+    nav {
+        height: auto;
+    }
+    nav .navbar-brand img {
+        max-width: 100vw;
+    }
 }
