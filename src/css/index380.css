@@ -5,4 +5,8 @@
     .productos2 .pro2 .card2 {
         width: 74vw !important;
     }
+    .productos .pro-fondo .cuadro {
+        right: 28%;
+        top: 157px;
+    }
 }
