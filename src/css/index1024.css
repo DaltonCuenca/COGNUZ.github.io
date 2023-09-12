@@ -3,7 +3,7 @@
         top: 209px;
     }
     .productos2 .pro2 .card2 .ct {
-        left:60px;
+        left:60px !important;
     }
     nav {
         height: auto;

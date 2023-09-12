@@ -24,4 +24,7 @@
         right: 24%;
         top: 224px;
     }
+    .modal-window h1 {
+        font-size: 1.3rem;
+    }
 }

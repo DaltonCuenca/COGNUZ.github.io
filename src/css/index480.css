@@ -43,4 +43,7 @@
     .productos2 .pro2 .card2 .ct {
         left: 9px !important;
     }
+    .modal-window h1 {
+        font-size: 1.5rem;
+    }
 }
