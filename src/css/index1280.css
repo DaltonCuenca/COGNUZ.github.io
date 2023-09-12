@@ -5,9 +5,7 @@
     .bg1 .row .somos {
         width: 80vw;
     }
-    .modal-window {
-        & h1{
-            max-width: 100%;
-        }
+    .modal-window h1{
+        max-width: 100%;
     }
 }

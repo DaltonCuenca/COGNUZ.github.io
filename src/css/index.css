@@ -291,56 +291,58 @@ footer {
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s;
+}
 
-    &:target {
-        visibility: visible;
-        opacity: 1;
-        pointer-events: auto;
-    }
-    & p{
-        padding: 10px 0 !important;
-    }
+.modal-window:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
 
-    &>div {
-        width: 80vw;
-        max-height: 90vh;
-        overflow-y: scroll;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 3em !important;
-        background: white;
-    }
-    & img{
-        max-width: 100%;
-        max-height: 30vh;
-        border-radius: 8px !important;
-    }
+.modal-window p {
+    padding: 10px 0 !important;
+}
 
-    .bold {
-        font-weight: bold;
-        color: var(--background);
-    }
-    
-    & h1 {
-        font-size: 2rem;
-        margin: 0 0 15px !important;
-        min-width: 50%;
-        max-width: 40%;
-        color: var(--background);
-        padding: 20px !important;
-        line-break: auto;
-        justify-items: baseline;
-    }
-    & h2 {
-        min-width: 50%;
-        max-width: 60%;
-        font-size: 1rem;
-        padding: 0 20px !important;
-        margin: 0 0 15px !important;
-        color: var(--background);
-    }
+.modal-window > div {
+    width: 80vw;
+    max-height: 90vh;
+    overflow-y: scroll;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3em !important;
+    background: white;
+}
+
+.modal-window img {
+    max-width: 100%;
+    max-height: 30vh;
+    border-radius: 8px !important;
+}
+
+.modal-window .bold {
+    font-weight: bold;
+    color: var(--background);
+}
+
+.modal-window h1 {
+    font-size: 2rem;
+    margin: 0 0 15px !important;
+    min-width: 50%;
+    max-width: 40%;
+    color: var(--background);
+    padding: 20px !important;
+    line-break: auto;
+    justify-items: baseline;
+}
+.modal-window h2 {
+    min-width: 50%;
+    max-width: 60%;
+    font-size: 1rem;
+    padding: 0 20px !important;
+    margin: 0 0 15px !important;
+    color: var(--background);
 }
 
 .modal-close {
@@ -353,10 +355,9 @@ footer {
     top: 0;
     width: 70px;
     text-decoration: none;
-
-    &:hover {
-        color: black;
-    }
+}
+.modal-close:hover{
+    color: black;
 }
 
 /* Demo Styles */
@@ -372,10 +373,8 @@ a {
     height: 100vh;
 }
 
-.modal-window {
-    &>div {
-        border-radius: 1rem;
-    }
+.modal-window > div{
+    border-radius: 1rem;
 }
 
 .modal-window div:not(:last-of-type) {
@@ -396,8 +395,7 @@ small {
     padding: 1em 1.5em;
     border-radius: 0.5rem;
     text-decoration: none;
-
-    i {
-        padding-right: 0.3em;
-    }
+}
+.btn i{
+    padding-right: 0.3em;
 }
