@@ -1,7 +1,4 @@
 @media (max-width:1024px) {
-    .productos .pro-fondo .cuadro {
-        top: 209px;
-    }
     .productos2 .pro2 .card2 .ct {
         left:60px !important;
     }
@@ -10,5 +7,8 @@
     }
     nav .navbar-brand img {
         max-width: 100vw;
+    }
+    .productos .pro-fondo img {
+        max-width: 60vw;
     }
 }

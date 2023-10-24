@@ -32,14 +32,12 @@ nav .navbar-brand img {
     color: var(--letters);
     width: 100%;
     margin: 0 !important;
-    padding: 50px 0 !important;
-    /* display: none; */
+    padding: 3em 0 !important;
 }
 
 .bg1 video {
     width: 50vw;
-    border-radius: 10px;
-    border: 2px solid #464545;
+    border-radius: 1em;
 }
 
 .bg1 .input-group {
@@ -61,7 +59,7 @@ nav .navbar-brand img {
 .NE {
     width: 100%;
     position: relative;
-    padding: 100px 0 300px 0 !important;
+    padding: 6em 0 18em 0 !important;
     background: url('../img/fondo001.png') center no-repeat;
     background-size: cover;
 }
@@ -81,7 +79,7 @@ nav .navbar-brand img {
     background-color: var(--cuadros-lineas);
     height: 10px;
     width: 60%;
-    top: 75px;
+    bottom: -5px;
     left: 100px;
 }
 
@@ -117,6 +115,7 @@ nav .navbar-brand img {
 .NE .card img {
     height: 300px;
     object-fit: cover;
+    object-position: top;
 }
 
 /* PRODUCTOS */
@@ -126,22 +125,23 @@ nav .navbar-brand img {
 }
 
 .productos .pro-fondo {
-    position: absolute;
-    width: 100%;
-    top: -400px;
+    position: relative;
+    height: fit-content;
+    top: -10em;
 }
 
 .productos .pro-fondo img {
-    position: relative;
-    width: 50vw;
+    min-width: 50vw;
+    max-width: 50vw;
     border-radius: 0 0 50px 50px;
 }
 
 .productos .pro-fondo .cuadro {
     position: absolute;
     width: fit-content;
-    right: 40%;
-    top: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
     background-color: var(--background);
     color: var(--letters);
     padding: 20px !important;
@@ -152,15 +152,15 @@ nav .navbar-brand img {
     background-color: var(--cuadros-lineas);
     height: 10px;
     width: 50%;
-    top: 75px;
-    left: 65px;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .productos .pro {
     display: block;
     position: relative;
     width: 100%;
-    margin: 200px 0 0 0 !important;
     background-color: #f2f2f2;
     border-radius: 20px 20px 0 0;
     padding: 10px 0 !important;
@@ -303,7 +303,7 @@ footer {
     padding: 10px 0 !important;
 }
 
-.modal-window > div {
+.modal-window>div {
     width: 80vw;
     max-height: 90vh;
     overflow-y: scroll;
@@ -337,6 +337,7 @@ footer {
     line-break: auto;
     justify-items: baseline;
 }
+
 .modal-window h2 {
     min-width: 50%;
     max-width: 60%;
@@ -357,7 +358,8 @@ footer {
     width: 70px;
     text-decoration: none;
 }
-.modal-close:hover{
+
+.modal-close:hover {
     color: black;
 }
 
@@ -374,7 +376,7 @@ a {
     height: 100vh;
 }
 
-.modal-window > div{
+.modal-window>div {
     border-radius: 1rem;
 }
 
@@ -397,6 +399,7 @@ small {
     border-radius: 0.5rem;
     text-decoration: none;
 }
-.btn i{
+
+.btn i {
     padding-right: 0.3em;
 }

@@ -1,48 +1,35 @@
 @media (max-width:480px) {
+    .productos .pro-fondo img {
+        max-width: 90vw;
+    }
+
+    .productos .pro-fondo {
+        top: -2em;
+    }
+
     .bg1 video {
         width: 70vw;
     }
+
     nav .navbar-brand img {
         height: auto;
         width: 100%;
     }
-    .NE{
-        padding: 100px 0 100px 0 !important;
-    }
-    .NE .col-4 {
-        flex: 0 0 auto;
-        width: 80vw;
-    }
-    .productos .pro .col-4, 
+
+    .productos .pro .col-4,
     .productos2 .pro2 .col-4 {
         width: 80vw;
     }
-    .productos .pro .card .ct .card-title, 
+
+    .productos .pro .card .ct .card-title,
     .productos2 .pro2 .card .ct .card-title {
         width: 62vw;
-    }
-    .NE .cuadro .raya {
-        top: 69px;
-        left: 85px;
-    }
-    .productos .pro-fondo {
-        position: absolute;
-        width: 100%;
-        top: -310px;
-    }
-    .productos .pro-fondo img {
-        top: 57px;
-        width: 70vw;
-    }
-    .productos .pro-fondo .cuadro {
-        right: 32%;
-        top: 196px;
-        padding: 10px !important;
     }
 
     .productos2 .pro2 .card2 .ct {
         left: 9px !important;
     }
+
     .modal-window h1 {
         font-size: 1.5rem;
     }

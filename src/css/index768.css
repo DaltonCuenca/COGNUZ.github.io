@@ -1,35 +1,49 @@
 @media (max-width:768px) {
-    .productos .pro-fondo .cuadro {
-        right: 38%;
-        top: 162px;
-        padding: 10px !important;
+    .NE {
+        padding: 100px 0 100px 0 !important;
     }
-    
-    .productos .pro-fondo .cuadro .raya {
-        top: 50px;
-        left: 46px;
+
+    .NE .col-4 {
+        flex: 0 0 auto;
+        width: 80vw;
     }
-    .productos .pro .col-4, 
+    .productos .pro-fondo {
+        top: -2em;
+    }
+    .productos .pro-fondo img {
+        max-width: 70vw;
+    }
+
+    .productos .pro-fondo img {
+        width: 80vw;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .productos .pro .col-4,
     .productos2 .pro2 .col-4 {
         width: 80vw;
     }
+
     .productos .pro .card .ct {
         width: auto;
     }
 
     .productos .pro .card .ct .card-title,
-    .productos2 .pro2 .card .ct .card-title{
+    .productos2 .pro2 .card .ct .card-title {
         width: 80%;
         overflow-wrap: break-word;
     }
-    .productos2 .pro2 .card.solo .ct .cuadro{
+
+    .productos2 .pro2 .card.solo .ct .cuadro {
         position: absolute;
     }
-    .productos2 .pro2 .card.solo .ct .card-title{
+
+    .productos2 .pro2 .card.solo .ct .card-title {
         width: 400px;
         overflow-wrap: break-word;
     }
+
     .productos2 .pro2 .card2 .ct {
-        left:30px !important;
+        left: 30px !important;
     }
 }
