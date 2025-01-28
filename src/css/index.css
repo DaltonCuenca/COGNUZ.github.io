@@ -155,6 +155,25 @@ nav .navbar-brand img {
     filter: brightness(1.1);
 }
 
+/* Estilo para la foto grupal */
+.NE .row img.equipo {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 15px;
+    margin: 2em auto !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.NE .row img.equipo:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
 /* PRODUCTOS */
 
 .productos {
@@ -704,6 +723,11 @@ small {
 
     .footer-logo {
         margin: 20px 0 !important;
+    }
+
+    .NE .row img.equipo {
+        max-width: 90%;
+        margin: 1em auto !important;
     }
 }
 
