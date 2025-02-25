@@ -167,8 +167,8 @@ nav .navbar-brand img {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    filter: brightness(90%) blur(0.2px) saturate(1.05) contrast(120%);
-    -webkit-filter: brightness(90%) blur(0.2px) saturate(1.05) contrast(120%);
+    filter: brightness(90%) saturate(1.05) contrast(120%);
+    -webkit-filter: brightness(90%) saturate(1.05) contrast(120%);
 }
 
 .NE .row img.equipo:hover {
